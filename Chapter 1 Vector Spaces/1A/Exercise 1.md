@@ -9,14 +9,9 @@ Then,
 ```math
 \begin{align*}
 \alpha + \beta &= (a + bi) + (c + di) \\
-&= a + bi + c + di \\
-&= a + c + bi + di \\
-&= (a + c) + (bi + di) \\
-&= (a + c) + (b + d)i \\
-&= (c + a) + (d + b)i \\
-&= c + a + di + bi\\
-&= c + di + a + bi\\
-&= (c + di) + (a + bi)\\
+&= (a + c) + (b + d)i\ \ &&\text{ by definition of addition over } \mathbb{C} \\
+&= (c + a) + (d + b)i\ \ &&\text{ by commutative property of } \mathbb{R} \\
+&= (c + di) + (a + bi)\ \ &&\text{ by definition of addition over } \mathbb{C} \\
 &= \beta + \alpha
 \end{align*}
 ```
