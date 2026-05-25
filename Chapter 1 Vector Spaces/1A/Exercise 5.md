@@ -1,0 +1,20 @@
+# Exercise 5
+
+Let $\alpha = a + bi$ where $a, b \in \mathbb{R}$.
+
+Let $\beta = (-a) + (-b)i$. We have $(-a), (-b) \in \mathbb{R}$ by the additive inverse property of $\mathbb{R}$.
+
+Then,
+
+```math
+\begin{align*}
+\alpha + \beta &= (a + bi) + ((-a) + (-b)i) \\
+&= (a + -a) + (b + -b)i\ \ &&\text{ by definition of addition over } \mathbb{C} \\
+&= 0 + 0i\ \ &&\text{ by additive inverse property of } \mathbb{R} \\
+&= 0
+\end{align*}
+```
+
+Thus, we have shown that $\exists \beta \in \mathbb{C}$ such that $\alpha + \beta = 0$. 
+
+But we can also say that $(-a), (-b)$ are unique (and therefore $\beta$ is unique) by the additive inverse property of $\mathbb{R}$. QED.
