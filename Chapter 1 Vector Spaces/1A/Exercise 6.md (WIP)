@@ -24,4 +24,28 @@ Now, we have
 \end{align*}
 ```
 
-As a result, we have shown by construction that $\exists \beta \in \mathbb{C}$ such that $\alpha(\beta) = 1$. 
+Thus, we have shown by construction that $\exists \beta \in \mathbb{C}$ such that $\alpha(\beta) = 1$. 
+
+----
+
+## Lemma
+
+For any $\lambda \in \mathbb{C}$, $\alpha(1) = \alpha$.
+
+Let $\alpha = a + bi$ where $a, b \in \mathbb{R}$.
+
+Then,
+
+```math
+\begin{align*}
+\alpha(1) &= (a + bi)(1 + 0i)\ &&\text{ by definition of } \mathbb{R} \\
+&= (a(1) - b(0)) + (a(0) + b(1))i\ \ &&\text{ by definition of multiplication over } \mathbb{C} \\
+&= (a(1) + b(1)i \\
+&= a + bi\ \ &&\text{ by multiplicative identity property of } \mathbb{R} \\
+&= \alpha
+\end{align*}
+```
+
+as desired.
+
+----
