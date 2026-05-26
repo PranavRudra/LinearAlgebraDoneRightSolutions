@@ -2,11 +2,17 @@
 
 Let $\alpha = a + bi$ where $a, b \in \mathbb{R}$.
 
-Now, let 
+Let 
 
 $$\beta = \frac{a}{a^2 + b^2} + \frac{(-b)i}{a^2 + b^2}$$
 
-and observe that
+and observe that 
+
+$$\frac{a}{a^2 + b^2},\  \frac{-b}{a^2 + b^2} \in \mathbb{R}$$
+
+by the closure of $\mathbb{R}$ under addition and multiplication. Thus, $\beta \in \mathbb{C}$. 
+
+Now, we have
 
 ```math
 \begin{align*}
@@ -18,4 +24,4 @@ and observe that
 \end{align*}
 ```
 
-Thus, we have shown that $\exists \beta \in \mathbb{C}$ such that $\alpha(\beta) = 1$. 
+As a result, we have shown by construction that $\exists \beta \in \mathbb{C}$ such that $\alpha(\beta) = 1$. 
