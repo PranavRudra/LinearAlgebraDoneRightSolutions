@@ -1,0 +1,21 @@
+# Exercise 6
+
+Let $\alpha = a + bi$ where $a, b \in \mathbb{R}$.
+
+Now, let 
+
+$$\beta = \frac{a}{a^2 + b^2} + \frac{(-b)i}{a^2 + b^2}$$
+
+and observe that
+
+```math
+\begin{align*}
+\alpha(\beta) &= (a + bi)\left(\frac{a}{a^2 + b^2} + \frac{(-b)i}{a^2 + b^2}\right) \\
+&= \left(\frac{(a + bi)(a - bi)}{a^2 + b^2}\right) \\
+&= \frac{(a^2 - (b \cdot -b)) + ((a \cdot -b) + (ba))i}{a^2 + b^2}\ \ &&\text{ by definition of multiplication over } \mathbb{C} \\
+&= \frac{a^2 + b^2}{a^2 + b^2}\\
+&= 1
+\end{align*}
+```
+
+Thus, we have shown that $\exists \beta \in \mathbb{C}$ such that $\alpha(\beta) = 1$. 
