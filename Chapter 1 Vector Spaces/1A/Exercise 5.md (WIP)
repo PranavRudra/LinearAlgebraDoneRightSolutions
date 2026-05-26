@@ -17,4 +17,3 @@ Then,
 
 Thus, we have shown that $\exists \beta \in \mathbb{C}$ such that $\alpha + \beta = 0$. 
 
-But we can also say that $(-a), (-b)$ are unique (and therefore $\beta$ is unique) by the additive inverse property of $\mathbb{R}$. QED.
