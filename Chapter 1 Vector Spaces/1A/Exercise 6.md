@@ -54,3 +54,21 @@ Then,
 as desired. 
 
 ----
+
+Now, suppose $\exists \beta_1, \beta_2 \in \mathbb{C}$ such that $\alpha(\beta_1) = 1 = \alpha(\beta_2)$
+
+Then, we have
+
+```math
+\begin{align*}
+\beta_1 &= \beta_1(1)\  &&\text{ by the previous lemma } \\
+&= \beta_1(\alpha\beta_2)\ \ &&\text{ by definition of } \beta_2 \\
+&= (\beta_1\alpha)\beta_2\ \ &&\text{ by associativity of multiplication over } \mathbb{C} \\
+&= (\alpha\beta_1)\beta_2\ \ &&\text{ by commutativity of multiplication over } \mathbb{C} \\
+&= (1)\beta_2\ \ &&\text{ by definition of } \beta_1 \\
+&= \beta_2(1)\ \ &&\text{ by commutativity of multiplication over } \mathbb{C} \\
+&= \beta_2 &&\text{ by the previous lemma }
+\end{align*}
+```
+
+Thus, we have shown that the $\beta \in \mathbb{C}$ such that $\alpha(\beta) = 1$ is unique. 
