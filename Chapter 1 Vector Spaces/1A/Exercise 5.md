@@ -50,10 +50,10 @@ Then, we have
 \begin{align*}
 \beta_1 &= \beta_1 + 0\  &&\text{ by the previous lemma } \\
 &= \beta_1 + (\alpha + \beta_2)\ \ &&\text{ by definition of } \beta_2 \\
-&= (\beta_1 + \alpha) + \beta_2\ \ &&\text{ by associativity } \mathbb{C} \\
-&= (\alpha + \beta_1) + \beta_2\ \ &&\text{ by commutativity } \mathbb{C} \\
+&= (\beta_1 + \alpha) + \beta_2\ \ &&\text{ by associativity of addition over } \mathbb{C} \\
+&= (\alpha + \beta_1) + \beta_2\ \ &&\text{ by commutativity of addition over } \mathbb{C} \\
 &= 0 + \beta_2\ \ &&\text{ by definition of } \beta_1 \\
-&= \beta_2 + 0\ \ &&\text{ by commutativity } \mathbb{C} \\
+&= \beta_2 + 0\ \ &&\text{ by commutativity of addition } \mathbb{C} \\
 &= \beta_2 &&\text{ by the previous lemma }
 \end{align*}
 ```
